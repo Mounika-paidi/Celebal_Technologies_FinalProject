@@ -1,0 +1,11 @@
+# Global ignore
+node_modules/
+.env
+.DS_Store
+
+# React build
+file-transfer-app/build
+
+# Backend compiled logs
+file-transfer-backend/node_modules
+file-transfer-backend/uploads
