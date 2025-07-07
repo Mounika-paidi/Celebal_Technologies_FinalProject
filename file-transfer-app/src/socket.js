@@ -1,9 +1,10 @@
 import { io } from "socket.io-client";
 
-const userEmail = localStorage.getItem("user");
+// ✅ Use sessionStorage to avoid user info conflict across tabs
+const userEmail = sessionStorage.getItem("user");
 
-// ✅ Use Render live backend URL
-const socket = io("https://your-backend-service-name.onrender.com", {
+// 🌐 Replace with your actual backend URL on Render
+const socket = io("https://your-backend-name.onrender.com", {
   query: { email: userEmail },
 });
 
