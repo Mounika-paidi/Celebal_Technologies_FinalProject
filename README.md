@@ -19,7 +19,7 @@ A full-stack real-time file-sharing web application built using **React**, **Nod
 ## 🚀 Live Project
 
 🔗 Frontend (Vercel):  
-[https://celebal-technologies-final-project.vercel.app/dashboard](https://celebal-technologies-final-project.vercel.app/dashboard)
+[https://celebal-technologies-final-project.vercel.app/dashboard](https://celebal-technologies-final-project.vercel.app/)
 
 🛰️ Backend (Render):  
 `https://your-render-backend-url.onrender.com`
